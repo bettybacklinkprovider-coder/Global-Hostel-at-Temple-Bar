@@ -1,3 +1,9 @@
+import heroExteriorImg from '../assets/images/hero_temple_bar_hotel_1793439963506.jpg';
+import deluxeKingImg from '../assets/images/room_deluxe_king_1793439837700.jpg';
+import familySuiteImg from '../assets/images/room_family_suite_1793439839315.jpg';
+import executiveStudioImg from '../assets/images/room_executive_studio_1793439840055.jpg';
+import socialLoungeImg from '../assets/images/lounge_social_courtyard_1793439840852.jpg';
+
 export interface RoomItem {
   id: string;
   name: string;
@@ -83,11 +89,11 @@ export const HOTEL_INFO = {
 };
 
 export const IMAGES = {
-  heroExterior: '/src/assets/images/hero_temple_bar_hotel_1793439963506.jpg',
-  deluxeKing: '/src/assets/images/room_deluxe_king_1793439837700.jpg',
-  familySuite: '/src/assets/images/room_family_suite_1793439839315.jpg',
-  executiveStudio: '/src/assets/images/room_executive_studio_1793439840055.jpg',
-  socialLounge: '/src/assets/images/lounge_social_courtyard_1793439840852.jpg',
+  heroExterior: heroExteriorImg,
+  deluxeKing: deluxeKingImg,
+  familySuite: familySuiteImg,
+  executiveStudio: executiveStudioImg,
+  socialLounge: socialLoungeImg,
 };
 
 export const ROOMS_DATA: RoomItem[] = [
