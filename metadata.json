@@ -1,0 +1,6 @@
+{
+  "name": "Global Hostel at Temple Bar",
+  "description": "Boutique luxury hostel and private suites at 29 Eustace St, Temple Bar, Dublin 2, D02 F635, Ireland. Explore rooms, exclusive packages, verified guest reviews, and instant WhatsApp reservations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
